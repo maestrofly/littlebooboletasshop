@@ -1,22 +1,32 @@
-import React from 'react';
-import{BrowserRouter as Router,Route,Link} from "react-router-dom"
-import './App.css';
-import Contact from './Components/Contact';
+import React, { Component } from 'react';
+import Navbar from './Components/Navbar'
+import { BrowserRouter, Route } from 'react-router-dom'
+import Home from './Components/Home'
+import Catalog from './Components/Catalog'
+import Contact from './Components/Contact'
+import About from './Components/About'
+import './App.css'
 
-function App() {
-  return (
-    <Router>
-    <div className="App">
-      <h1>WELCOME TO OUR BABY WORLD</h1>
-    </div>
+ 
+class App extends Component {
+  render(){
+    return (
+    <BrowserRouter>
+    
+      <div className="App">
+        <Navbar />
+        <Route path='/home' component={Home} />
+        <Route path='/catalog' component={Catalog} />
+        <Route path='/contact' component={Contact} />
+        <Route path='/about' component={About} />
 
-    <div className="App">
-    <Link to = "/Contact">Contact</Link>
+      </div>
+      </BrowserRouter>
+    );
+  }
 
-    <Route exact={true}path="/Contact" component = {Contact} />
-    </div>
-    </Router> 
-  );
 }
+
+
 
 export default App;
