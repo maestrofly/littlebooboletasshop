@@ -2,15 +2,19 @@ import React from 'react'
 
 const About = () => {
  return (
-    <div
-      style={{
-          display: 'flex',
-          justifyContent: 'right',
-          alignItems: 'right',
-          height: '100vh'
-      }} >
-          <h1>we  make clothes</h1>
-      </div>
+     
+    <section id="subscribe">
+        <div className="container">
+            <h1>SUBSCRIBE HERE</h1>
+            <form>
+                <input type="email" placeholder="Enter Email..." />
+                <button type="submit" className="button">
+                    Subscribe
+                </button>
+            </form>
+        </div>
+        
+    </section>
  );
 
 };

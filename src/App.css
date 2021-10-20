@@ -26,7 +26,7 @@
 }
 
 .App-link {
-  color: #ffa3f3;
+  color: hsl(308, 53%, 86%);
 }
 
 @keyframes App-logo-spin {
@@ -39,10 +39,16 @@
 }
 
 .container{
-  background-color: #ffa3f3;
+  background-color: #eee0ec;
 
 }
 
 #headtitle{
   align-content: center;
+}
+
+#HomeContainer{
+ display: flex;
+ justify-content: left;
+ 
 }
