@@ -49,6 +49,12 @@
 
 #HomeContainer{
  display: flex;
- justify-content: left;
+ justify-content: center;
  
+}
+
+#ButtonContainer{
+  display: flex;
+  position: relative;
+  align-content: flex-start;
 }
