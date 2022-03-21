@@ -72,7 +72,7 @@ const Navbar = () => {
                   <Search style={{color: "gray", fontSize:16}}/>
               </SearchContainer>
           </Left>
-          <Center><Logo>LITTLE BOOBOLETAS SHOP.</Logo></Center>
+          <Center><Logo>LITTLE BOOBOLETAS.</Logo></Center>
           <Right>
               <MenuItem>REGISTER</MenuItem>
               <MenuItem>SIGN IN</MenuItem>
