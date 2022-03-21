@@ -26,7 +26,7 @@
 }
 
 .App-link {
-  color: hsl(308, 53%, 86%);
+  color: hsl(0, 0%, 100%);
 }
 
 @keyframes App-logo-spin {
@@ -39,7 +39,7 @@
 }
 
 .container{
-  background-color: #eee0ec;
+  background-color: #ffffff;
 
 }
 
